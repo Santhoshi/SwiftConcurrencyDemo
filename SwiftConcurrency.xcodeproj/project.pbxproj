@@ -11,6 +11,8 @@
 		00BDA9A42CEBAACD00A0CEE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDA9A32CEBAACD00A0CEE5 /* ContentView.swift */; };
 		00BDA9A62CEBAACE00A0CEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BDA9A52CEBAACE00A0CEE5 /* Assets.xcassets */; };
 		00BDA9A92CEBAACE00A0CEE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BDA9A82CEBAACE00A0CEE5 /* Preview Assets.xcassets */; };
+		00BDA9B02CEBAC4900A0CEE5 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDA9AF2CEBAC4900A0CEE5 /* DoCatchTryThrows.swift */; };
+		00BDA9B22CEBD61C00A0CEE5 /* DownloadImageWithAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDA9B12CEBD61C00A0CEE5 /* DownloadImageWithAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		00BDA9A32CEBAACD00A0CEE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00BDA9A52CEBAACE00A0CEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00BDA9A82CEBAACE00A0CEE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00BDA9AF2CEBAC4900A0CEE5 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
+		00BDA9B12CEBD61C00A0CEE5 /* DownloadImageWithAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageWithAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				00BDA9A12CEBAACD00A0CEE5 /* SwiftConcurrencyApp.swift */,
 				00BDA9A32CEBAACD00A0CEE5 /* ContentView.swift */,
+				00BDA9AF2CEBAC4900A0CEE5 /* DoCatchTryThrows.swift */,
+				00BDA9B12CEBD61C00A0CEE5 /* DownloadImageWithAsync.swift */,
 				00BDA9A52CEBAACE00A0CEE5 /* Assets.xcassets */,
 				00BDA9A72CEBAACE00A0CEE5 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BDA9B22CEBD61C00A0CEE5 /* DownloadImageWithAsync.swift in Sources */,
+				00BDA9B02CEBAC4900A0CEE5 /* DoCatchTryThrows.swift in Sources */,
 				00BDA9A42CEBAACD00A0CEE5 /* ContentView.swift in Sources */,
 				00BDA9A22CEBAACD00A0CEE5 /* SwiftConcurrencyApp.swift in Sources */,
 			);
@@ -272,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftConcurrency/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftConcurrency/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
